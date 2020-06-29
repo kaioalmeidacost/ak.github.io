@@ -1,0 +1,54 @@
+@media (max-width: 576px) {
+  .wrapper {
+    width: 95% !important;
+  }
+  .wrapper nav .menuCategoria {
+    justify-content: flex-end !important;
+  }
+  .wrapper nav .menuCategoria > ul {
+    display: none !important;
+  }
+  .wrapper nav .menuCategoria .hamburguer {
+    display: flex !important;
+  }
+  .wrapper nav .menuConta {
+    display: none !important;
+  }
+
+  .sobre__wrapper {
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /*produto */
+  .produto__container {
+    flex-direction: column !important;
+    height: 100% !important;
+  }
+  .produto__container .ak__imagem {
+    width: 100% !important;
+    height: 90vh !important;
+    overflow: unset !important;
+    transition: ease-in-out 300ms;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .produto__container .ak__imagem img {
+    max-width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+  }
+  .produto__container .ak__sobreProduto {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: unset !important;
+    position: relative !important;
+  }
+  .produto__container .ak__sobreProduto .ak__sobreProdutoHold {
+    position: unset !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
